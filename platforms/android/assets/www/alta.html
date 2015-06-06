@@ -1,0 +1,129 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo contacto</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/iconos/fonts.css">
+    <link rel="stylesheet" href="css/formularios.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="header">
+            <!-- Header start -->
+
+            <header>
+
+                <div class="container-fluid">
+
+
+                    <div class="col-md-8 col-md-offset-2">
+
+                        <h2 class="text-center titulo">Agenda</h2>
+
+                    </div>
+               
+                </div>
+
+            </header>
+
+            <!-- Header end -->
+        </div>
+
+        <div id="body">
+
+            <!-- Body start -->
+
+
+            <div class='container'>
+
+                <div class="fondo col-md-8 col-md-offset-2">
+                    <h4 class="text-center sub">Nuevo Contacto</h4><br>
+
+                     <form id="alta" name="alta" action="alta.html" method="post" enctype="multipart/form-data">
+                     
+                      <div class="row">
+                      <div class="col-xs-12  form-group">
+                      
+                        
+                        <select class="form-control form-group" id="generacion" type="text" name="generacion" placeholder="Generación" title="Seleccione su Generación" required>
+                        <option disabled>Seleccione su Generacion</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                        
+                        <input class="form-control form-group" id="nombre" type="text" name="nombre" placeholder="Escriba su nombre completo" title="Escriba su Nombre completo" required>
+                               
+                        <input class="form-control form-group" id="direccion" type="text" name="direccion" placeholder="Escriba su dirección" title="Escriba su dirección" required>
+                                
+                        <input class="form-control form-group" id="celular" type="text" name="celular" placeholder="Escriba su número de celular" title="Escriba su número de celular" required>
+                               
+                        <input class="form-control form-group" id="correo" type="text" name="correo" placeholder="e-mail" title="e-mail" required>
+                           
+                        <input class="form-control form-group" id="skype" type="text" name="skype" placeholder="ID de Skype" title="ID de Skype" required>
+                        
+                        <input class="form-control form-group" id="whatsapp" type="text" name="whatsapp" placeholder="Whatsapp" title="Whatsapp" required>
+                               
+                        <input class="form-control form-group" id="facebook" type="text" name="facebook" placeholder="Facebook" title="Facebook" required>
+                              
+                        <input class="form-control form-group" id="blog" type="text" name="blog" placeholder="Blog o web" title="Blog o Web" required>
+                              
+                        
+                      </div>
+                       
+                        </div>
+                      
+                          
+                        <div class="form-group">
+
+                        <button type="submit" id="enviar_alta" name="enviar_btn" value="agregar" class="btn btn-success col-xs-12 col-md-2 col-md-offset-4"><span class="icon-check"></span>Aceptar</button>
+
+                        <button class="btn btn-danger col-xs-12 col-md-2"><span class="icon-cancel"></span>Cancelar</button>
+                        
+                         </div> 
+                         
+                          <div class="margen"></div>
+                          <div class="margen"></div>
+                          <div class="margen"></div>
+                         
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Body end -->
+        </div>
+
+
+        <div class="margen"></div>
+        <div class="margen"></div>
+     
+    </div>
+
+    <script src="js/bootstrap/jquery.js"></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.backstretch.min.js "></script>
+
+    <script>
+        $(document).ready(function () {
+            $.backstretch("img/Directorio.jpg");
+        });
+    </script>
+
+
+</body>
+
+</html>
